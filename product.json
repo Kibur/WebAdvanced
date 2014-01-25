@@ -4,13 +4,12 @@
 		"Colors": [
 			{
 				"Color": "White",
-				"Picture": "images/white_box.jpg"
 			},
 			{
 				"Color": "Black",
-				"Picture": "images/black_box.jpg"
 			}
 		],
+		"Picture": "images/nest_black-white.jpg",
 		"Models": [
 			{
 				"Model": "Wired 120V",
