@@ -1,0 +1,184 @@
+[
+	{
+		"Name": "Nest Protect",
+		"Colors": [
+			{
+				"Color": "White",
+				"Picture": "images/white_box.jpg"
+			},
+			{
+				"Color": "Black",
+				"Picture": "images/black_box.jpg"
+			}
+		],
+		"Models": [
+			{
+				"Model": "Wired 120V",
+				"Dimensions": [
+					{
+						"Height": "5.28 inches (13.4 cm)",
+						"Width": "5.28 inches (13.4 cm)",
+						"Depth": "1.63 inces (4.1 cm)"
+					}
+				],
+				"Weight": "12.4 ounces (352 grams)",
+				"Box": [
+					{
+						"Item": "Three long-life backup batteries"
+					},
+					{
+						"Item": "Backplate"
+					},
+					{
+						"Item": "Four screws"
+					},
+					{
+						"Item": "Users's Guide and Welcome Guide"
+					},
+					{
+						"Item": "2-year limited hardware warranty"
+					},
+					{
+						"Item": "AC 120V connector"
+					},
+					{
+						"Item": "Three wire nuts"
+					}
+				],
+				"Picture": "images/nest_wired_120V.jpg"
+			},
+			{
+				"Model": "Battery",
+				"Dimensions": [
+					{
+						"Height": "5.28 inches (13.4 cm)",
+						"Width": "5.28 inches (13.4 cm)",
+						"Depth": "1.63 inces (4.1 cm)"
+					}
+				],
+				"Weight": "13.1 ounces (372 grams)",
+				"Box": [
+					{
+						"Item": "Six long-life batteries"
+					},
+					{
+						"Item": "Backplate"
+					},
+					{
+						"Item": "Four screws"
+					},
+					{
+						"Item": "User's Guide and Welcome Guide"
+					},
+					{
+						"Item": "2-year limited hardware warranty"
+					}
+				],
+				"Picture": "images/nest_battery.jpg"
+			}
+		],
+		"Price": "$129",
+		"Sensors": [
+			{
+				"Sensor": "Photoelectric smoke"
+			},
+			{
+				"Sensor": "Carbon monoxide"
+			},
+			{
+				"Sensor": "Heat"
+			},
+			{
+				"Sensor": "Three activity"
+			},
+			{
+				"Sensor": "Ambient light"
+			},
+			{
+				"Sensor": "Humidity"
+			}
+		],
+		"Speaker": "80dB @ 3ft (1 meter) @ 1kHz",
+		"Horn": "85 dB SPL at 10ft (3 meters)",
+		"Wireless": [
+			{
+				"Conection": "Working Wi-Fi connection",
+				"Range": "802.11 - 2.4 GHz"
+			},
+			{
+				"Connection": "Wireless Interconnect",
+				"Range": "802.15.4 - 2.4 GHz"
+			}
+		],
+		"SystemRequirements": [
+			{
+				"Required": "Wi-Fi connection"
+			},
+			{
+				"Required": "Smartphone or tablet with iOS 5 or later, or Android 2.2+ or later"
+			},
+			{
+				"Required": "Free Nest Account"
+			}
+		],
+		"EnvironmentalInformation": [
+			{
+				"Green": [
+					{
+						"Info": "Mercury-free"
+					},
+					{
+						"Info": "PVC free"
+					},
+					{
+						"Info": "Recyclable packaging"
+					}
+				]
+			},
+			{
+				"Operating": [
+					{
+						"Temperature": "This alarm should not be installed in locations where the normal ambient temperature is below 4°C (40°F) or exceeds 38°C (100°F)."
+					},
+					{
+						"Humidity Range": "20%RH to 80%RH (non condensing)."
+					}
+				]
+			}
+		],
+		"Languages": [
+			{
+				"Language": "English"
+			},
+			{
+				"Language": "Spanish"
+			}
+		],
+		"Warranty": "2-year limited hardware warranty (see details inside)",
+		"Certification": [
+			{
+				"SafetyStandardsFrom": [
+					{
+						"Name": "Underwriters Laboratories Inc."
+					},
+					{
+						"Name": "California State Fire Marshal"
+					}
+				]
+			},
+			{
+				"AlarmStandards": [
+					{
+						"Standard": "UL 2034 - 'Single and Multi Station Carbon Monoxide Alarms'"
+					},
+					{
+						"Standard": "UL 217 - 'Single and Multi Station Smoke Alarms'"
+					},
+					{
+						"Standard": "NFPA-72 - 'National Fire Alarm and Signaling Code'"
+					}
+				]
+			}
+		]
+	}
+]
