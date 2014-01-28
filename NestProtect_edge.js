@@ -167,8 +167,8 @@ var symbols = {
    states: {
       "Base State": {
          "${_Text7}": [
-            ["style", "height", '38px'],
             ["style", "top", '429px'],
+            ["style", "height", '38px'],
             ["style", "left", '574px'],
             ["style", "width", '164px']
          ],
@@ -179,20 +179,20 @@ var symbols = {
             ["style", "font-size", '18px']
          ],
          "${_Text5}": [
-            ["style", "top", '290px'],
             ["style", "height", '31px'],
+            ["style", "top", '290px'],
             ["style", "font-size", '20px']
          ],
          "${_Text4}": [
             ["style", "top", '1077px'],
             ["style", "height", '68px'],
-            ["style", "font-size", '16px'],
+            ["style", "width", '670px'],
             ["style", "left", '68px'],
-            ["style", "width", '670px']
+            ["style", "font-size", '16px']
          ],
          "${_txtModels}": [
-            ["style", "top", '1129px'],
             ["style", "height", '1011px'],
+            ["style", "top", '1129px'],
             ["style", "left", '68px'],
             ["style", "width", '670px']
          ],
@@ -203,21 +203,23 @@ var symbols = {
             ["style", "left", '423px'],
             ["style", "clip", [63.401329040527344,316,234.4648895263672,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
          ],
-         "${_Text6}": [
-            ["style", "top", '326px'],
-            ["style", "font-size", '12px'],
-            ["style", "height", '50px'],
-            ["style", "width", '235px']
+         "${_Text8}": [
+            ["style", "top", '473px'],
+            ["style", "height", '68px'],
+            ["style", "width", '235px'],
+            ["style", "left", '503px'],
+            ["style", "font-size", '12px']
          ],
-         "${_txtWired}": [
-            ["style", "height", '124px'],
-            ["style", "top", '884px']
+         "${_Text10}": [
+            ["style", "top", '926px'],
+            ["style", "height", '58px'],
+            ["style", "font-size", '30px']
          ],
          "${_Symb_Wave}": [
             ["style", "top", '232px'],
+            ["transform", "scaleX", '0.45423'],
             ["style", "left", '249px'],
-            ["transform", "scaleY", '0.45423'],
-            ["transform", "scaleX", '0.45423']
+            ["transform", "scaleY", '0.45423']
          ],
          "${_Nest_Logo}": [
             ["style", "top", '-140px'],
@@ -233,16 +235,17 @@ var symbols = {
          ],
          "${_Text}": [
             ["style", "top", '202px'],
-            ["style", "width", '393px'],
+            ["style", "font-size", '30px'],
             ["style", "height", '31px'],
             ["style", "font-family", 'allerta, sans-serif'],
             ["style", "left", '68px'],
-            ["style", "font-size", '30px']
+            ["style", "width", '393px']
          ],
-         "${_txtBattery}": [
-            ["style", "top", '884px'],
-            ["style", "left", '491px'],
-            ["style", "height", '124px']
+         "${_Text2}": [
+            ["style", "top", '834px'],
+            ["style", "font-family", 'allerta, sans-serif'],
+            ["style", "left", '68px'],
+            ["style", "font-size", '18px']
          ],
          "${_Stage}": [
             ["color", "background-color", 'rgba(255,255,255,1)'],
@@ -251,23 +254,20 @@ var symbols = {
             ["style", "height", '2198px'],
             ["style", "width", '800px']
          ],
-         "${_Text2}": [
-            ["style", "top", '834px'],
-            ["style", "font-family", 'allerta, sans-serif'],
-            ["style", "left", '68px'],
-            ["style", "font-size", '18px']
+         "${_Text6}": [
+            ["style", "top", '326px'],
+            ["style", "width", '235px'],
+            ["style", "height", '50px'],
+            ["style", "font-size", '12px']
          ],
-         "${_Text10}": [
-            ["style", "height", '58px'],
-            ["style", "top", '926px'],
-            ["style", "font-size", '30px']
+         "${_txtWired}": [
+            ["style", "height", '124px'],
+            ["style", "top", '884px']
          ],
-         "${_Text8}": [
-            ["style", "top", '473px'],
-            ["style", "height", '68px'],
-            ["style", "font-size", '12px'],
-            ["style", "left", '503px'],
-            ["style", "width", '235px']
+         "${_txtBattery}": [
+            ["style", "top", '884px'],
+            ["style", "left", '491px'],
+            ["style", "height", '124px']
          ]
       }
    },
@@ -293,10 +293,10 @@ var symbols = {
    content: {
    dom: [
    {
-      type: 'image',
       rect: ['0px','0px','316px','319px','auto','auto'],
-      id: 'smoke_alarm',
       transform: [],
+      id: 'smoke_alarm',
+      type: 'image',
       clip: ['rect(64px 279px 233px 22px)'],
       fill: ['rgba(0,0,0,0)','images/smoke_alarm.png','0px','0px']
    },
@@ -316,11 +316,11 @@ var symbols = {
          "${_Ellipse}": [
             ["color", "background-color", 'rgba(192,192,192,0.00)'],
             ["style", "top", '75px'],
-            ["style", "border-width", '13px'],
-            ["color", "border-color", 'rgba(255,255,255,1.00)'],
-            ["style", "height", '124px'],
-            ["style", "border-style", 'solid'],
             ["style", "left", '75px'],
+            ["style", "border-style", 'solid'],
+            ["style", "height", '124px'],
+            ["color", "border-color", 'rgba(255,255,255,1.00)'],
+            ["style", "border-width", '13px'],
             ["style", "width", '124px']
          ],
          "${_smoke_alarm}": [
@@ -358,10 +358,10 @@ var symbols = {
    content: {
    dom: [
    {
-      transform: [[0,0],[],[],['0.79677','0.79677']],
       type: 'image',
-      id: 'nest-protect-lead',
       rect: ['-31px','-18px','310px','170px','auto','auto'],
+      id: 'nest-protect-lead',
+      transform: [[0,0],[],[],['0.79677','0.79677']],
       clip: ['rect(15.78955078125px 249.473876953125px 170px 65.78955078125px)'],
       fill: ['rgba(0,0,0,0)','images/nest-protect-lead.jpg','0px','0px']
    },
@@ -378,26 +378,26 @@ var symbols = {
    },
    states: {
       "Base State": {
+         "${symbolSelector}": [
+            ["style", "height", '135px'],
+            ["style", "width", '247px']
+         ],
+         "${_Ellipse}": [
+            ["color", "background-color", 'rgba(192,192,192,0.00)'],
+            ["style", "top", '48px'],
+            ["style", "border-width", '5px'],
+            ["color", "border-color", 'rgba(49,49,49,0.00)'],
+            ["style", "height", '42px'],
+            ["style", "border-style", 'solid'],
+            ["style", "left", '98px'],
+            ["style", "width", '42px']
+         ],
          "${_nest-protect-lead}": [
             ["style", "top", '-18px'],
             ["transform", "scaleY", '0.79677'],
             ["transform", "scaleX", '0.79677'],
             ["style", "clip", [15.78955078125,249.473876953125,170,65.78955078125], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
             ["style", "left", '-31px']
-         ],
-         "${_Ellipse}": [
-            ["color", "background-color", 'rgba(192,192,192,0.00)'],
-            ["style", "top", '48px'],
-            ["style", "left", '98px'],
-            ["style", "border-style", 'solid'],
-            ["style", "height", '42px'],
-            ["color", "border-color", 'rgba(49,49,49,0.00)'],
-            ["style", "border-width", '5px'],
-            ["style", "width", '42px']
-         ],
-         "${symbolSelector}": [
-            ["style", "height", '135px'],
-            ["style", "width", '247px']
          ]
       }
    },
@@ -424,9 +424,9 @@ var symbols = {
    content: {
    dom: [
    {
-      type: 'image',
-      id: 'smoke_alarm_slide_sprite-10932b4f',
       rect: ['0px','0px','242px','723px','auto','auto'],
+      id: 'smoke_alarm_slide_sprite-10932b4f',
+      type: 'image',
       clip: ['rect(0px 242px 239.0712890625px 0px)'],
       fill: ['rgba(0,0,0,0)','images/smoke_alarm_slide_sprite-10932b4f.jpg','0px','0px']
    },
@@ -439,10 +439,10 @@ var symbols = {
       fill: ['rgba(192,192,192,0)']
    },
    {
-      transform: [[0,0],['39']],
-      id: 'hand-paper',
       type: 'image',
+      id: 'hand-paper',
       rect: ['-17px','77px','280px','280px','auto','auto'],
+      transform: [[0,0],['39']],
       fill: ['rgba(0,0,0,0)','images/hand-paper.png','0px','0px']
    }],
    symbolInstances: [
@@ -463,17 +463,17 @@ var symbols = {
          ],
          "${_Ellipse2}": [
             ["style", "top", '56px'],
-            ["style", "left", '57px'],
+            ["style", "border-width", '10px'],
             ["style", "height", '91px'],
             ["color", "border-color", 'rgba(255,255,255,0.00)'],
-            ["style", "border-width", '10px'],
+            ["style", "left", '57px'],
             ["style", "width", '91px']
          ],
          "${_smoke_alarm_slide_sprite-10932b4f}": [
             ["style", "top", '0px'],
+            ["style", "left", '0px'],
             ["style", "clip", [0,242,239.0712890625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-            ["style", "background-position", [0,0], {valueTemplate:'@@0@@px @@1@@px'} ],
-            ["style", "left", '0px']
+            ["style", "background-position", [0,0], {valueTemplate:'@@0@@px @@1@@px'} ]
          ],
          "${symbolSelector}": [
             ["style", "height", '723px'],
