@@ -1,4 +1,4 @@
 WebAdvanced
 ===========
 
-Projects for web advanced.
+Opdracht2: The Mad pedestrian

@@ -1,0 +1,15 @@
+Bottom side
+
+Car8 = y: 630 -> 700
+Car7 = y: 560 -> 630
+Car6 = y: 485 -> 560
+Car5 = y: 415 -> 485
+
+Grass = y: 365 -> 415
+
+Car4 = y: 305 -> 365
+Car3 = y: 245 -> 305
+Car2 = y: 165 -> 245
+Car1 = y: 100 -> 165
+
+Top side
